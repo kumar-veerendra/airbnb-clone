@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+const Review = require("./review");
+
 const listingSchema = new Schema({
   title: {
     type: String,
@@ -30,6 +32,25 @@ const listingSchema = new Schema({
   owner:{
     type: Schema.Types.ObjectId,
     ref: "User",
+  }
+});
+
+// ADDED THIS MONGOOSE MIDDLEWARE
+//
+// Purpose:
+// When a listing gets deleted,
+// automatically delete all reviews
+// associated with that listing.
+//
+// This is called Cascade Delete.
+// ==========================
+listingSchema.post("findOneAndDelete", async (listing) => {
+  if (listing) {
+    await Review.deleteMany({
+      _id: {
+        $in: listing.reviews,
+      },
+    });
   }
 });
 

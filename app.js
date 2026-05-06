@@ -24,6 +24,7 @@ const userRouter = require("./routes/user.js");
 
 //const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 const dburl = process.env.ATLASDB_URL;
+const port = process.env.PORT || 8080;
 
 main()
     .then(()=>{
@@ -118,6 +119,6 @@ app.use((err,req,res,next) => {
     // res.status(statusCode).send(message);
 });
 
-app.listen(8080,()=>{
+app.listen(port,()=>{
     console.log("server is listing on port 8080");
 });
