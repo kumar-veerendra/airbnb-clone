@@ -1,4 +1,6 @@
 # Airbnb Clone 🏠  
+🔗 Live Demo: [https://airbnb-clone-s7y6.onrender.com/listings](https://airbnb-clone-s7y6.onrender.com/listings/)  
+
 This is a Full Stack Airbnb Clone built using **Node.js, Express.js, MongoDB, and EJS** following the **MVC architecture**. It allows users to explore, book, and host properties similar to Airbnb. The project focuses on authentication, CRUD operations, secure backend APIs, and a responsive EJS-based UI.  
 
 ## 🚀 Features  
@@ -18,7 +20,7 @@ Database: MongoDB (Mongoose)
 Authentication: JWT, bcrypt  
 Image Storage: Multer + Cloudinary  
 Architecture: MVC (Model-View-Controller)  
-Hosting: Render / Railway (Backend), MongoDB Atlas  
+Hosting: Render (Backend), MongoDB Atlas  
 
 ## 📦 Installation  
 1. Clone the repository  
