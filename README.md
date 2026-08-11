@@ -24,7 +24,7 @@ Hosting: Render (Backend), MongoDB Atlas
 
 ## 📦 Installation  
 1. Clone the repository  
-git clone https://github.com/kumar-veerendra/airbnb-clone.git  
+git clone https://github.com/kumar-veerendra/ApnaStay.git  
 cd airbnb-clone  
 
 2. Install dependencies  
