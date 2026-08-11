@@ -1,7 +1,7 @@
-# Airbnb Clone 🏠  
-🔗 Live Demo: [https://airbnb-clone-s7y6.onrender.com/listings](https://airbnb-clone-s7y6.onrender.com/listings/)  
+# ApnaStay 🏠  
+🔗 Live Demo: [Live Link](https://airbnb-clone-s7y6.onrender.com/listings)  
 
-This is a Full Stack Airbnb Clone built using **Node.js, Express.js, MongoDB, and EJS** following the **MVC architecture**. It allows users to explore, book, and host properties similar to Airbnb. The project focuses on authentication, CRUD operations, secure backend APIs, and a responsive EJS-based UI.  
+This is a Full Stack ApnaStay - Property Rental & Booking Platform built using **Node.js, Express.js, MongoDB, and EJS** following the **MVC architecture**. It allows users to explore, book, and host properties similar to Airbnb. The project focuses on authentication, CRUD operations, secure backend APIs, and a responsive EJS-based UI.  
 
 ## 🚀 Features  
 - User Authentication using JWT and bcrypt  
